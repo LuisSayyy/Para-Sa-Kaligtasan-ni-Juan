@@ -1,3 +1,9 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="#fffff1c3">
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -38,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Tsunami is a natural disaster caused by either an underwater volcanic eruption or an earthquake along the depths of the ocean, causing a huge tidal wave"
+        android:text="    Tsunami is a natural disaster caused by either an underwater volcanic eruption or an earthquake along the depths of the ocean, causing a huge tidal wave"
         android:id="@+id/textView"
         android:layout_below="@+id/txtVTitle"
         android:layout_marginTop="28dp"
@@ -57,3 +63,4 @@
         android:textSize="27dp" />
 
 </RelativeLayout>
+</ScrollView>

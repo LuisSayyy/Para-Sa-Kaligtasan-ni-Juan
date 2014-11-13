@@ -1,7 +1,13 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="#fffff1c3">
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
@@ -17,11 +23,11 @@
         android:clickable="true"
         android:textSize="25dp"
         android:gravity="center"
-        android:layout_marginBottom="41dp"
-        android:layout_above="@+id/txtVTwo"
-        android:layout_centerHorizontal="true"
         android:onClick="goToEOne"
-        android:textColor="#ff435dff" />
+        android:textColor="#ff435dff"
+        android:layout_below="@+id/txtGuide"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -31,12 +37,12 @@
         android:id="@+id/txtVTwo"
         android:textSize="25dp"
         android:gravity="center"
-        android:layout_marginBottom="97dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
         android:clickable="true"
         android:onClick="goToETwo"
-        android:textColor="#ff435dff" />
+        android:textColor="#ff435dff"
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/txtEOne"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -53,7 +59,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Earthquake is a natural disaster that happens when there is an unstable movement along the fault line in the Earth's crust"
+        android:text="     Earthquake is a natural disaster that happens when there is an unstable movement along the fault line in the Earth&apos;s crust"
         android:id="@+id/textView"
         android:layout_below="@+id/txtVTitle"
         android:layout_marginTop="28dp"
@@ -72,3 +78,4 @@
         android:textSize="27dp" />
 
 </RelativeLayout>
+</ScrollView>
